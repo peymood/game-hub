@@ -7,17 +7,17 @@ function App() {
       base : `"nav" "main"`,
       lg : `"nav nav" "aside main"`
     }}>
-      <GridItem area='nav' bg='blue' >
+      <GridItem area='nav'  >
         <NavBar /> 
       </GridItem>
 
       <Show above='lg' >
-       <GridItem area='aside' bg='brown' >
+       <GridItem area='aside' >
          Aside
        </GridItem>
       </Show>
       
-      <GridItem area='main' bg='pink' >
+      <GridItem area='main' >
         Main
       </GridItem>
 
@@ -25,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App ; 
