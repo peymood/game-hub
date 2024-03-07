@@ -9,7 +9,7 @@ function App() {
     }}>
       <GridItem area='nav'  >
         <NavBar /> 
-      </GridItem>
+      </GridItem> 
 
       <Show above='lg' >
        <GridItem area='aside' >
